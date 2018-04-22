@@ -1,0 +1,71 @@
+.combinations 
+{
+    text-align: center;
+	font-size:13px;
+	padding-bottom:5px;
+	padding-top:5px;
+	display:flex;
+}
+
+.combinations .combinacion
+{
+    margin: 0 auto; 
+    padding:5px;
+    text-align: center;
+	padding:0px;
+	position: relative;
+	float: left;
+	color:#fff;
+}
+
+.combinations .combinacion button
+{
+	color:#000;
+	font-weight: normal;
+	padding: 3px;
+	outline: 0;
+}
+
+
+.combinations .seleccionado button
+{
+	color:#fff;
+	font-weight: normal;
+	padding: 3px;
+	background-color: #000;
+	border:2px solid #000;
+	color:#fff;
+	outline: 0;
+}
+
+
+
+
+.combinations .sin_stock button
+{
+	font-size:13px;
+	color:#ff0000;
+    cursor:help;
+}
+
+.oculto {
+	visibility: hidden;
+	display: none;
+}
+
+.avisotalla {
+	position: relative;
+	/*float: left;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color:#FF7878;
+	font-size:12px;
+}
+
+
+.msginfo {
+	font-size:14px;
+	color:#00ff00;
+	position: relative;	
+}
